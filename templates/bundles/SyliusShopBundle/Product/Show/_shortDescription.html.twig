@@ -1,0 +1,4 @@
+<div class="ui basic segment">
+    <p>{{ product.shortDescription }}</p>
+    <p>Kolor: {% if product.color is empty %}Brak{% else %}{{ product|product_color_label }}{% endif %}</p>
+</div>
